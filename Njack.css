@@ -6,13 +6,15 @@
   
 textarea
 {
-    width: 223px;
+    width: 380px;
     height: 100px;
+    font-size: large;
 }
 
 h1
 {
     color: black;
+    font-size: 50px;
 }
 
 .form
@@ -20,15 +22,26 @@ h1
     border-radius: 10%;
     border: 2.5px #f15f36 solid;
     background: white;
-    width: 250px;
+    width: 440px;
+    height: auto;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    opacity: 0.8;
 }
 
+label
+{
+    color: black;
+    font-size: x-large;
+}
+
+input
+{
+    font-size: x-large;
+}
 input, textarea
 {
     border: 2px #f15f36 solid;
@@ -47,11 +60,12 @@ input, textarea
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 .main img
 {
-    width: 400px;    
+    width: 500px;    
 }
 
 body
@@ -71,7 +85,7 @@ body
     }
 }
 
-@media (max-width: 425px)
+@media (max-width: 768px)
 {
     .main img 
     {
